@@ -2,13 +2,13 @@
 import java.util.ArrayList;
 
 public class Surname {
-    private ArrayList<Name> list;
-    private String surname;
+    private final ArrayList<Name> list;
+    private final String surname;
 
 
     public Surname(String surname) {
         this.surname = surname;
-        list = new ArrayList<Name>();
+        list = new ArrayList<>();
     }
 
     public String getSurname() {

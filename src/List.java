@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 
 public class List {
-    private ArrayList<Surname> list = new ArrayList<Surname>();
+    private final ArrayList<Surname> list = new ArrayList<>();
 
     public Surname addSurname (String surname , String name, String number){
         Surname sur = new Surname(surname);
@@ -19,6 +19,11 @@ public class List {
         list.add( addSurname("Słapiński", "Piotr" , "3"));
         list.add( addSurname("Słapiński", "Piotr", "404"));
         list.add( addSurname( "Borek", "Mateusz" , "2115"));
+        list.add( addSurname( "Wójciuk", "Marceli" , "58"));
+        list.add( addSurname( "Chmiela", "Adrian" , "8575"));
+        list.add( addSurname( "Patecki", "Jakub" , "32"));
+        list.add( addSurname( "Piwko", "Marcin" , "4"));
+
 
 
     }

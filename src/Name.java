@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
 public class Name  {
-    private String name;
-    private ArrayList<Number> list;
+    private final String name;
+    private final ArrayList<Number> list;
 
     public Name(String name) {
         this.name = name;
-        list = new ArrayList<Number>();
+        list = new ArrayList<>();
     }
 
     public String getName() {
